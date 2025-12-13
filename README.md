@@ -6,8 +6,7 @@ Bu proje,Python ve Pandas kullanarak şehir bazlı sıcaklık ve nem verilerinin
 - Date
 - City
 - Temperature (°C)
-- Humidity (%)
-  ---
+- Humidity
 
 ## 📊 Yapılan Analizler
 
