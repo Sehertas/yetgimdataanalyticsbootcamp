@@ -13,7 +13,7 @@ Bu proje,Python ve Pandas kullanarak şehir bazlı sıcaklık ve nem verilerinin
 ### 1️⃣ Kütüphane ve Veri Yükleme
 - Pandas ve NumPy kütüphaneleri import edildi
 - CSV dosyası DataFrame’e yüklendi
-- 
+
 ### 2️⃣ Veriyi Keşfetme
 head() ile ilk 5 satır incelendi
 tail() ile son 5 satır incelendi
@@ -47,7 +47,6 @@ Temperature - (Humidity / 100)
 ### 8️⃣ Gruplama ve Analiz
 Şehir başına kayıt sayısı
 | City     |   Kayıt Sayısı |
-|:---------|---------------:|
 | Ankara   |             16 |
 | Antalya  |             15 |
 | Bursa    |             24 |
@@ -55,12 +54,12 @@ Temperature - (Humidity / 100)
 | İzmir    |             24 |
 Şehir başına ortalama sıcaklık
 | City     |   Ortalama Sıcaklık (°C) |
-|:---------|-------------------------:|
 | Ankara   |                 14.6376  |
 | Antalya  |                  9.51096 |
 | Bursa    |                 16.8927  |
 | İstanbul |                 13.7152  |
 | İzmir    |                 13.4592  |
+
 Şehir bazlı özet istatistikler (groupby kullanılarak)
 Şehir bazlı sıcaklık analizleri Excel dosyasına aktarıldı
 Oluşturulan dosya: sehir_sicakliklari.xlsx
@@ -69,8 +68,8 @@ Ortalama sıcaklık
 Maksimum sıcaklık
 Minimum sıcaklık
 Kayıt sayısı
+
 | City     |   Ortalama_Sıcaklık |   Maksimum_Sıcaklık |   Minimum_Sıcaklık |   Kayıt_Sayısı |
-|:---------|--------------------:|--------------------:|-------------------:|---------------:|
 | Ankara   |            14.6376  |             34.8031 |          -2.45628  |             16 |
 | Antalya  |             9.51096 |             33.9967 |          -1.66739  |             15 |
 | Bursa    |            16.8927  |             34.5742 |          -0.828552 |             24 |
